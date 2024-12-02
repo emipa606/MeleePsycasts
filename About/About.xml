@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Melee Psycasts (Continued)</name>
+  <packageId>Mlie.MeleePsycasts</packageId>
+  <author>ThePatchWorkHoax</author>
+  <url>https://github.com/emipa606/MeleePsycasts</url>
+  <supportedVersions>
+    <li>1.3</li>
+    <li>1.4</li>
+    <li>1.5</li>
+  </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>Ludeon.Rimworld.Royalty</packageId>
+      <displayName>Rimworld Royalty</displayName>
+      <downloadUrl>https://store.steampowered.com/app/1149640/RimWorld__Royalty/</downloadUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>Ludeon.Rimworld.Royalty</li>
+  </loadAfter>
+  <description>[img]https://i.imgur.com/buuPQel.png[/img]
+Update of ThePatchWorkHoaxs mod https://steamcommunity.com/sharedfiles/filedetails/?id=2552118979
+
+- Added translation strings
+
+[img]https://i.imgur.com/pufA0kM.png[/img]
+
+[table]
+    [tr][td][url=https://dsc.gg/mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td] [td][url=https://github.com/emipa606/MeleePsycasts][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
+    [/tr]
+    [tr]
+        [td][img]https://i.imgur.com/WjDSfUn.png[/img][/td]
+        [td][img]https://i.imgur.com/Be8E2qJ.png[/img][/td]
+    [/tr]
+[/table]
+	
+[img]https://i.imgur.com/Z4GOv8H.png[/img]
+[h1]!MORE PSYCASTS![/h1] Adds an array of powerful psycasts focused on melee combat. 
+
+Thanks to @Oracle of Thessia for the icons, they are amazing.
+
+[img]https://i.imgur.com/TiCq3hx.png[/img]
+[img]https://i.imgur.com/tFDERKr.png[/img]
+[img]https://i.imgur.com/72X1yzo.png[/img]
+[img]https://i.imgur.com/v2SBrrF.png[/img]
+[img]https://i.imgur.com/UphaSxd.png[/img]
+[img]https://i.imgur.com/4voe758.png[/img]
+[img]https://i.imgur.com/gLnvAvX.png[/img]
+[img]https://i.imgur.com/LDXzcni.png[/img]
+[img]https://i.imgur.com/LrikpXJ.png[/img]
+[img]https://i.imgur.com/ej9x4ow.png[/img]
+
+[img]https://i.imgur.com/PwoNOj4.png[/img]
+[list]
+[*] See if the the error persists if you just have this mod and its requirements active.
+[*] If not, try adding your other mods until it happens again.
+[*] Post your error-log using [url=https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib[/url] or the standalone [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404]Uploader[/url] and command Ctrl+F12
+[*] For best support, please use the Discord-channel for error-reporting.
+[*] Do not report errors by making a discussion-thread, I get no notification of that.
+[*] If you have the solution for a problem, please post it to the GitHub repository.
+[*] Use [url=https://github.com/RimSort/RimSort/releases/latest]RimSort[/url] to sort your mods
+[/list] 
+
+[url=https://steamcommunity.com/sharedfiles/filedetails/changelog/][img]https://img.shields.io/github/v/release/emipa606/MeleePsycasts?label=latest%20version&amp;style=plastic&amp;color=9f1111&amp;labelColor=black[/img][/url] | tags: psycasts,  powers</description>
+  <modVersion IgnoreIfNoMatchingField="True">1.5.0</modVersion>
+</ModMetaData>

@@ -1,0 +1,25 @@
+﻿using RimWorld;
+using Verse;
+
+namespace MeleePsycasts;
+
+public class BaseCompAbilityEffect : CompAbilityEffect
+{
+    public override bool GizmoDisabled(out string reason)
+    {
+        if (parent.pawn.equipment.Primary == null)
+        {
+            reason = "MePs.RequiresMelee".Translate();
+            return true;
+        }
+
+        if (!parent.pawn.equipment.Primary.def.IsMeleeWeapon)
+        {
+            reason = "MePs.RequiresMelee".Translate();
+            return true;
+        }
+
+        reason = "MePs.HasMelee".Translate();
+        return false;
+    }
+}

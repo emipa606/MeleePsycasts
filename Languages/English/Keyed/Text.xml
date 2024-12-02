@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MePs.RequiresMelee>Pawn requires a melee weapon</MePs.RequiresMelee>
+  <MePs.HasMelee>Pawn has a melee weapon</MePs.HasMelee>
+  <MePs.Failed>Failed!</MePs.Failed>
+  <MePs.Charge>Charge!</MePs.Charge>
+  <MePs.FailedCharge>Failed Charge</MePs.FailedCharge>
+  <MePs.Disable>Disable!</MePs.Disable>
+  <MePs.DisableNoMelee>Disable does not require a melee weapon</MePs.DisableNoMelee>
+  <MePs.LegCut>Leg Cut!</MePs.LegCut>
+  <MePs.Skewer>Skewer!</MePs.Skewer>
+  <MePs.PsychicSlice>Psychic Slice!</MePs.PsychicSlice>
+  <MePs.FailedPsychicSlice>Failed Psychic Slice</MePs.FailedPsychicSlice>
+  <MePs.FailedSpinCut>Failed SpinCut</MePs.FailedSpinCut>
+  <MePs.SpinCut>Spin Cut!</MePs.SpinCut>
+</LanguageData>
