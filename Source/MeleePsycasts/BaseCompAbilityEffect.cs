@@ -22,4 +22,8 @@ public class BaseCompAbilityEffect : CompAbilityEffect
         reason = "MePs.HasMelee".Translate();
         return false;
     }
+	public override bool AICanTargetNow(LocalTargetInfo target)
+	{
+		return true;
+	}
 }
