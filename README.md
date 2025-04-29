@@ -1,4 +1,4 @@
-# [Melee Psycasts (Continued)]()
+# [Melee Psycasts (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=3376663261)
 
 ![Image](https://i.imgur.com/buuPQel.png)
 
@@ -49,4 +49,6 @@ Thanks to @Oracle of Thessia for the icons, they are amazing.
 
  
 
-[![Image](https://img.shields.io/github/v/release/emipa606/MeleePsycasts?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/) | tags: psycasts,  powers
+[![Image](https://img.shields.io/github/v/release/emipa606/MeleePsycasts?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/) | tags: psycasts,  powers 
+
+[![Image](https://img.shields.io/github/v/release/emipa606/MeleePsycasts?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/3376663261) | tags: psycasts,  powers

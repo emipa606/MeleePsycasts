@@ -1,5 +1,8 @@
 # Changelog for MeleePsycasts
 
+1.5.1 - Allows enemies to use melee psycasts
+
+
 1.5.0 - First publish
 Used DeepL to update translations for ChineseSimplified, French, German
 
