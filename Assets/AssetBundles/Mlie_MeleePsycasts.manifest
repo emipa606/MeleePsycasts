@@ -1,0 +1,31 @@
+ManifestFileVersion: 0
+CRC: 3164315348
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 1d2d23c39689701b30ff695e59ea975b
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2612ac43db082a73502ee80f2eceb73f
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 1d2d23c39689701b30ff695e59ea975b
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Data/Mlie.MeleePsycasts/Textures/LegCutIcon.png
+- Assets/Data/Mlie.MeleePsycasts/Textures/ClawIcon.png
+- Assets/Data/Mlie.MeleePsycasts/Textures/ChargeIcon.png
+- Assets/Data/Mlie.MeleePsycasts/Textures/FatalBlowIcon.png
+- Assets/Data/Mlie.MeleePsycasts/Textures/ChargeSkewerIcon.png
+- Assets/Data/Mlie.MeleePsycasts/Textures/KOIcon.png
+- Assets/Data/Mlie.MeleePsycasts/Textures/StunBlowIcon.png
+- Assets/Data/Mlie.MeleePsycasts/Textures/SliceIcon.png
+- Assets/Data/Mlie.MeleePsycasts/Textures/SpinCutIcon.png
+- Assets/Data/Mlie.MeleePsycasts/Textures/EmpBlowIcon.png
+- Assets/Data/Mlie.MeleePsycasts/Textures/DisablingStrikeIcon.png
+- Assets/Data/Mlie.MeleePsycasts/Textures/SkewerIcon.png
+Dependencies: []

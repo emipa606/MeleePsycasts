@@ -6,13 +6,13 @@ namespace MeleePsycasts;
 
 public class CompAbilityEffect_Charge : BaseCompAbilityEffect
 {
-    private CompProperties_AbilityBasic _Props;
+    private CompProperties_AbilityBasic abilityProps;
 
     public override void Apply(LocalTargetInfo target, LocalTargetInfo dest)
     {
-        _Props = (CompProperties_AbilityBasic)Props;
+        abilityProps = (CompProperties_AbilityBasic)Props;
 
-        if (target.Pawn == null || _Props == null)
+        if (target.Pawn == null || abilityProps == null)
         {
             return;
         }
@@ -34,7 +34,7 @@ public class CompAbilityEffect_Charge : BaseCompAbilityEffect
 
             parent.pawn.Position = pos;
 
-            MeleePsycastsUtils.DamageRandomBodyPart(_Props, parent.pawn, target.Pawn, 2);
+            MeleePsycastsUtils.DamageRandomBodyPart(abilityProps, parent.pawn, target.Pawn, 2);
 
             MoteMaker.ThrowText(target.Pawn.PositionHeld.ToVector3(), target.Pawn.MapHeld, "MePs.Charge".Translate(),
                 3f);

@@ -4,31 +4,31 @@ namespace MeleePsycasts;
 
 public class CompAbilityEffect_RepeatAttack : BaseCompAbilityEffect
 {
-    private CompProperties_AbilityRepeatAttack _Props;
+    private CompProperties_AbilityRepeatAttack abilityProps;
 
     public override void Apply(LocalTargetInfo target, LocalTargetInfo dest)
     {
-        _Props = (CompProperties_AbilityRepeatAttack)Props;
+        abilityProps = (CompProperties_AbilityRepeatAttack)Props;
 
-        if (target.Pawn == null || _Props == null)
+        if (target.Pawn == null || abilityProps == null)
         {
             return;
         }
 
-        MeleePsycastsUtils.DamageRandomBodyPart(_Props, parent.pawn, target.Pawn, _Props.repeatAmount);
+        MeleePsycastsUtils.DamageRandomBodyPart(abilityProps, parent.pawn, target.Pawn, abilityProps.repeatAmount);
     }
 
     public override bool GizmoDisabled(out string reason)
     {
-        _Props = (CompProperties_AbilityRepeatAttack)Props;
+        abilityProps = (CompProperties_AbilityRepeatAttack)Props;
 
-        if (_Props == null)
+        if (abilityProps == null)
         {
             reason = string.Empty;
             return false;
         }
 
-        if (_Props.requiresMelee)
+        if (abilityProps.requiresMelee)
         {
             return base.GizmoDisabled(out reason);
         }

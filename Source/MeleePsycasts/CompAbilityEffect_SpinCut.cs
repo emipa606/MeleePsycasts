@@ -6,13 +6,13 @@ namespace MeleePsycasts;
 
 public class CompAbilityEffect_SpinCut : BaseCompAbilityEffect
 {
-    private CompProperties_AbilityBasic _Props;
+    private CompProperties_AbilityBasic abilityProps;
 
     public override void Apply(LocalTargetInfo target, LocalTargetInfo dest)
     {
-        _Props = (CompProperties_AbilityBasic)Props;
+        abilityProps = (CompProperties_AbilityBasic)Props;
 
-        if (_Props == null)
+        if (abilityProps == null)
         {
             return;
         }
@@ -36,7 +36,7 @@ public class CompAbilityEffect_SpinCut : BaseCompAbilityEffect
             {
                 if (pawn != null && pos == pawn.Position)
                 {
-                    MeleePsycastsUtils.DamageRandomBodyPart(_Props, parent.pawn, pawn, 1);
+                    MeleePsycastsUtils.DamageRandomBodyPart(abilityProps, parent.pawn, pawn, 1);
                 }
             }
         }

@@ -4,31 +4,31 @@ namespace MeleePsycasts;
 
 public class CompAbilityEffect_ApplyHediff : BaseCompAbilityEffect
 {
-    private CompProperties_AbilityApplyHediff _Props;
+    private CompProperties_AbilityApplyHediff abilityProps;
 
     public override void Apply(LocalTargetInfo target, LocalTargetInfo dest)
     {
-        _Props = (CompProperties_AbilityApplyHediff)Props;
+        abilityProps = (CompProperties_AbilityApplyHediff)Props;
 
-        if (target.Pawn == null || _Props == null)
+        if (target.Pawn == null || abilityProps == null)
         {
             return;
         }
 
-        target.Pawn?.health.AddHediff(HediffMaker.MakeHediff(_Props.hediffDef, target.Pawn));
+        target.Pawn?.health.AddHediff(HediffMaker.MakeHediff(abilityProps.hediffDef, target.Pawn));
     }
 
     public override bool GizmoDisabled(out string reason)
     {
-        _Props = (CompProperties_AbilityApplyHediff)Props;
+        abilityProps = (CompProperties_AbilityApplyHediff)Props;
 
-        if (_Props == null)
+        if (abilityProps == null)
         {
             reason = "";
             return false;
         }
 
-        if (_Props.requiresMelee)
+        if (abilityProps.requiresMelee)
         {
             return base.GizmoDisabled(out reason);
         }

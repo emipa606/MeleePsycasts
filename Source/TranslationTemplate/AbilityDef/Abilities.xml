@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Charge -->
+  <Charge.label>Charge</Charge.label>
+  <!-- EN: Move with such speed and power towards a target, slashing them twice. -->
+  <Charge.description>Move with such speed and power towards a target, slashing them twice.</Charge.description>
+  <!-- EN: Charge-Skewer -->
+  <ChargeSkewer.label>Charge-Skewer</ChargeSkewer.label>
+  <!-- EN: A powerful combo move, charge to your target, stab them twice at 15% damage, and then skewer them down the middle. -->
+  <ChargeSkewer.description>A powerful combo move, charge to your target, stab them twice at 15% damage, and then skewer them down the middle.</ChargeSkewer.description>
+  <!-- EN: Claw -->
+  <Claw.label>Claw</Claw.label>
+  <!-- EN: Form psychic claws and slash the target 3 times -->
+  <Claw.description>Form psychic claws and slash the target 3 times</Claw.description>
+  <!-- EN: Disabling Strike -->
+  <DisablingStrike.label>Disabling Strike</DisablingStrike.label>
+  <!-- EN: Bluntly strike the target over and over, in an attempt to disable them for capture. Ineffective against armour -->
+  <DisablingStrike.description>Bluntly strike the target over and over, in an attempt to disable them for capture. Ineffective against armour</DisablingStrike.description>
+  <!-- EN: EMP Blow -->
+  <EmpBlow.label>EMP Blow</EmpBlow.label>
+  <!-- EN: Strike the target with such powerful psychic energy that it sends an EMP pulse through their body. Mechanoids will adapt after one blow -->
+  <EmpBlow.description>Strike the target with such powerful psychic energy that it sends an EMP pulse through their body. Mechanoids will adapt after one blow</EmpBlow.description>
+  <!-- EN: Fatal Blow -->
+  <FatalBlow.label>Fatal Blow</FatalBlow.label>
+  <!-- EN: Powerful but costly move, Make your opponent regret existing. (Will Kill) -->
+  <FatalBlow.description>Powerful but costly move, Make your opponent regret existing. (Will Kill)</FatalBlow.description>
+  <!-- EN: KO -->
+  <KO.label>KO</KO.label>
+  <!-- EN: Take your target down with one strike, with the goal of leaving no lasting damage -->
+  <KO.description>Take your target down with one strike, with the goal of leaving no lasting damage</KO.description>
+  <!-- EN: LegSkip -->
+  <LegCut.label>LegSkip</LegCut.label>
+  <!-- EN: Powerful but costly move, instantly destroy your targets legs. Likely, but not always fatal. -->
+  <LegCut.description>Powerful but costly move, instantly destroy your targets legs. Likely, but not always fatal.</LegCut.description>
+  <!-- EN: Skewer -->
+  <Skewer.label>Skewer</Skewer.label>
+  <!-- EN: Skewer a pawn straight through the torso, dealing immense damage. -->
+  <Skewer.description>Skewer a pawn straight through the torso, dealing immense damage.</Skewer.description>
+  <!-- EN: Slice -->
+  <Slice.label>Slice</Slice.label>
+  <!-- EN: Teleport a short distance to a target and slice a bodypart randomly -->
+  <Slice.description>Teleport a short distance to a target and slice a bodypart randomly</Slice.description>
+  <!-- EN: Spin-Cut -->
+  <SpinCut.label>Spin-Cut</SpinCut.label>
+  <!-- EN: Skip a short distance and spin your blade around, cutting anyone within a small distance -->
+  <SpinCut.description>Skip a short distance and spin your blade around, cutting anyone within a small distance</SpinCut.description>
+</LanguageData>

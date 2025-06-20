@@ -6,25 +6,27 @@ namespace MeleePsycasts;
 
 public class CompAbilityEffect_Skewer : BaseCompAbilityEffect
 {
-    private CompProperties_AbilitySkewer _Props;
+    private CompProperties_AbilitySkewer abilityProps;
 
     public override void Apply(LocalTargetInfo target, LocalTargetInfo dest)
     {
-        _Props = (CompProperties_AbilitySkewer)Props;
+        abilityProps = (CompProperties_AbilitySkewer)Props;
 
-        if (target.Pawn == null || _Props == null)
+        if (target.Pawn == null || abilityProps == null)
         {
             return;
         }
 
-        var torso = target.Pawn?.health.hediffSet.GetNotMissingParts().FirstOrDefault(x => x.def == _Props.torsoDef);
+        var torso = target.Pawn?.health.hediffSet.GetNotMissingParts()
+            .FirstOrDefault(x => x.def == abilityProps.torsoDef);
 
         if (torso == null)
         {
             return;
         }
 
-        target.Pawn.TakeDamage(new DamageInfo(_Props.damageDef, _Props.damage, _Props.armourPen, -1, parent.pawn, torso,
+        target.Pawn.TakeDamage(new DamageInfo(abilityProps.damageDef, abilityProps.damage, abilityProps.armourPen, -1,
+            parent.pawn, torso,
             parent.pawn.equipment.Primary.def));
         MoteMaker.ThrowText(target.Pawn.PositionHeld.ToVector3(), target.Pawn.MapHeld, "MePs.Skewer".Translate(), 6f);
     }
